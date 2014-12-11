@@ -10,7 +10,6 @@
 		04CBC8BB1A39DC9500101029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC8BA1A39DC9500101029 /* main.m */; };
 		04CBC8BE1A39DC9500101029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC8BD1A39DC9500101029 /* AppDelegate.m */; };
 		04CBC8C11A39DC9500101029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC8C01A39DC9500101029 /* ViewController.m */; };
-		04CBC8C41A39DC9500101029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CBC8C21A39DC9500101029 /* Main.storyboard */; };
 		04CBC8C61A39DC9500101029 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CBC8C51A39DC9500101029 /* Images.xcassets */; };
 		04CBC8C91A39DC9500101029 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CBC8C71A39DC9500101029 /* LaunchScreen.xib */; };
 		04CBC8D51A39DC9500101029 /* EcommerceOATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBC8D41A39DC9500101029 /* EcommerceOATests.m */; };
@@ -34,7 +33,6 @@
 		04CBC8BD1A39DC9500101029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04CBC8BF1A39DC9500101029 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04CBC8C01A39DC9500101029 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04CBC8C31A39DC9500101029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CBC8C51A39DC9500101029 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04CBC8C81A39DC9500101029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04CBC8CE1A39DC9500101029 /* EcommerceOATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceOATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 				04CBC8BD1A39DC9500101029 /* AppDelegate.m */,
 				04CBC8BF1A39DC9500101029 /* ViewController.h */,
 				04CBC8C01A39DC9500101029 /* ViewController.m */,
-				04CBC8C21A39DC9500101029 /* Main.storyboard */,
 				04CBC8C51A39DC9500101029 /* Images.xcassets */,
 				04CBC8C71A39DC9500101029 /* LaunchScreen.xib */,
 				04CBC8B81A39DC9500101029 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CBC8C41A39DC9500101029 /* Main.storyboard in Resources */,
 				04CBC8C91A39DC9500101029 /* LaunchScreen.xib in Resources */,
 				04CBC8C61A39DC9500101029 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04CBC8C21A39DC9500101029 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04CBC8C31A39DC9500101029 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04CBC8C71A39DC9500101029 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +400,7 @@
 				04CBC8DA1A39DC9500101029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04CBC8DB1A39DC9500101029 /* Build configuration list for PBXNativeTarget "EcommerceOATests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +409,7 @@
 				04CBC8DD1A39DC9500101029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
